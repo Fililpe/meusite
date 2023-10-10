@@ -1,0 +1,12 @@
+body {
+  background-color: #E8E8E8;
+  font-family: Montserrat, arial;
+  display: flex;
+  justify-content: center;
+  /* align-items: center;  */
+  height: 100vh; 
+  /* margin: 0; */
+  margin-top: 3%;
+  padding: 0;
+  
+}
