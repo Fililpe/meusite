@@ -17,7 +17,7 @@ class card extends HTMLElement {
         cardImage.setAttribute("class", "card-image")
 
         const newsImg = document.createElement("img")
-        newsImg.src = this.getAttribute ("photo") || "assets/imgs/no-image.png"
+        newsImg.src = this.getAttribute ("photo") || "../assets/imgs/no-image.png"
         cardImage.appendChild(newsImg)
         //imagem 
         
@@ -76,7 +76,7 @@ class card extends HTMLElement {
         }
         
         .card {
-            margin-right: 20px; /* Adicione o espaçamento horizontal desejado aqui */
+            margin-right: 20px; 
             width: 190px;
             background: white;
             padding: .4em;
@@ -99,7 +99,7 @@ class card extends HTMLElement {
             display: block;
             max-width: 100%;
             max-height: 100%;
-            object-fit: cover; /* Garante que a imagem se ajuste na div */
+            object-fit: cover; 
         }
           
           .card-image:hover {
@@ -107,7 +107,7 @@ class card extends HTMLElement {
           }
 
           .card:last-child {
-            margin-right: 0; /* Remove a margem direita do último "documento" */
+            margin-right: 0; 
         }
           
           .category {
